@@ -1,0 +1,10 @@
+--colors
+--reporter spec
+--slow 150
+--timeout 3000
+--ui bdd
+--check-leaks
+--inline-diffs
+--recursive
+--throw-deprecation
+--require ./test/init/unit

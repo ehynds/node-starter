@@ -1,0 +1,22 @@
+{
+  "rules": {
+    "indent": [ "error", 2, { "SwitchCase": 1, "ignoreComments": true } ],
+    "quotes": [ "warn", "single", "avoid-escape" ],
+    "linebreak-style": [ "error", "unix" ],
+    "semi": [ "error", "always" ],
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "no-var": "warn",
+    "arrow-spacing": "error",
+    "prefer-const": "warn",
+    "prefer-template": "warn",
+    "eol-last": "error",
+    "space-before-blocks": "error",
+    "space-before-function-paren": "error"
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": "eslint:recommended"
+}
